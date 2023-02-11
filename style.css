@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*home page section*/
+small{
+    color:#fff;
+}
+i{
+    font-size:3rem;
+    
+}
+h1{
+    display: inline;
+    padding: 3px;
+}
+#hm{
+    text-align:center;
+
+}
+    .c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+    }
+/*home page section*/
+
+/*other section*/
+div h3,p{
+    text-align:left;
+   
+}
+div h3{
+    font-size:15px;
+}
+
+/*other section*/
+#ic{
+    font-size:30px;
+}
+/*arrivals section*/
+
+/*arrivals section*/
+
+/*testimonials section*/
+#test{
+    width:50px;
+    margin-left:10px;
+}
+/*testimonials section*/
+
+/*brand section*/
+.brand{
+    background: #1E272E;
+}
+#brand{
+    font-size:5rem;
+    margin-top:20px;
+    margin-bottom:20px;
+    color: #757A7D;
+}
+/*brand section*/
+
+/*footer section*/
+ul li a{
+    color: #757A7D;
+}
+h6,p{
+    color: #757A7D;  
+}
+/*footer section*/
+
+/*responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    i{
+        font-size:2rem;
+    }
+    .c-item{
+        height:280px;
+        } 
+      
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .c-item{
+        height:280px;
+        } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .c-item{
+        height:300px;
+        }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .c-item{
+        height:100vh;
+        }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+    }
+   /*responsive*/

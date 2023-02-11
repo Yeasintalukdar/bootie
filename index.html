@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootie</title>
+  <link rel="icon" type="image/x-icon" href="./fabicon.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/c04905c7fe.js" crossorigin="anonymous"></script>
+   <!--1. owl carousel min.css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   <!--2. owl carousel Theme min.css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- home page content-->
+ <div class="home-page">
+      <!-- carousel section start-->
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <!--header-->
+        <header>
+       <!--nav-->
+       <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+         <div class="container-fluid">
+           <a class="navbar-brand ms-lg-5" href="#"><i class="fa-solid fa-bold"></i><h1><b>ootie</b></h1></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+             <ul class="navbar-nav ms-auto p-lg-4 ">
+               <li class="nav-item">
+                 <a class="nav-link active " aria-current="page" href="#"> <small class="text-warning me-lg-3">HOME</small> </a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#"> <small class="me-lg-3">ABOUT</small></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link " href="#"><small class="me-lg-3">BLOG</small></a>
+               </li>
+               <li class="nav-item dropdown me-lg-3">
+                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <small> DROP DOWN</small>
+                 </a>
+                 <ul class="dropdown-menu bg-transparent ">
+                   <li><a class="dropdown-item" href="#"><small>link 1</small></a></li>
+                   <li><a class="dropdown-item" href="#"><small>link 2</small></a></li>
+                   <li><a class="dropdown-item" href="#"><small>link 3</small></a></li>
+                 </ul>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#"><small class="me-lg-3">CONTACT</small></a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       
+       </nav>
+       <!--nav-->
+       </header>
+       <!--header-->
+       
+             <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                 <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                 <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               </div>
+             <div class="carousel-inner">
+               <div class="carousel-item active c-item">
+                 <img src="./images/banner.jpg" class=" d-block w-100 c-img">
+                 <div  class="carousel-caption mt-md-5 top-0  mt-5  mb-lg-5  d-lg-flex align-items-lg-end ">
+                    <!--banner-info-->
+        <div class="banner-info ">
+         <p id="hm">TRENDING OF THE WEEK</p>
+         <h1 class=" mb-lg-3 display-lg-3"><strong>CASUAL SHOES <br> FOR MEN</strong></h1>
+         <div class="banner-button">
+           <a href="#" class="btn btn-success ">SHOP NOW</a>
+           <a href="#" class="btn btn-primary">READ MORE</a>
+         </div>
+       </div>
+        <!--banner-info-->
+                   </div>
+               </div>
+               <div class="carousel-item c-item">
+                 <img src="./images/banner2.jpg" class=" d-block w-100 c-img">
+                 <div class="carousel-caption mt-md-5 top-0 mt-5  mb-lg-5  d-lg-flex align-items-lg-end ">
+                  <!--banner-info-->
+      <div class="banner-info">
+       <p id="hm">TRENDING OF THE WEEK</p>
+       <h1 class=" mb-lg-3 display-lg-3"><strong>CASUAL SHOES <br> FOR MEN</strong></h1>
+       <div class="banner-button">
+         <a href="#" class="btn btn-success ">SHOP NOW</a>
+         <a href="#" class="btn btn-primary">READ MORE</a>
+       </div>
+     </div>
+      <!--banner-info-->
+                 </div>
+               </div>
+               <div class="carousel-item c-item">
+                 <img src="./images/banner3.webp" class="d-block w-100 c-img">
+                 <div class="carousel-caption top-0 mt-5  mb-lg-5  d-lg-flex align-items-lg-end">
+                      <!--banner-info-->
+        <div class="banner-info">
+         <p id="hm">TRENDING OF THE WEEK</p>
+         <h1 class=" mb-lg-3 display-lg-3">CASUAL SHOES <br> FOR MEN</h1>
+         <div class="banner-button">
+           <a href="#" class="btn btn-success ">SHOP NOW</a>
+           <a href="#" class="btn btn-primary">READ MORE</a>
+         </div>
+       </div>
+        <!--banner-info-->
+                   </div>
+               </div>
+             </div>
+             <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Next</span>
+               </button>
+           </div>
+       <!--2 carousel section end-->
+ </div>
+  <!--home page content-->
+
+ <!-- others section--> 
+<section>
+  <div class="container-fluid text-center gy-5 my-5">
+    <div class="row gy-3 my-3">
+  
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <div class="card-body d-flex">
+            <div class="icon1 ms-sm-5  mt-4"> <i class=" fs-1 fa fa-truck" style="color:orange;"></i> </div>
+            <div class="info1 ms-3">
+          <h3 class="mt-4">FREE SHIPPING</h3>
+            <p class="mb-4">
+              On all order over $2000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card bg-warning">
+          <div class="card-body d-flex">
+            <div class="icon1 ms-sm-5  mt-4"> <i class="fs-1 fa-solid fa-bullhorn"></i></div>
+            <div class="info1 ms-3 ">
+          <h3 class="mt-4">FREE RETURN</h3>
+            <p class="mb-4">
+              on 1st exchange in 30 day
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <div class="card-body d-flex">
+            <div class="icon1 ms-sm-5  mt-4"> <i class="fs-1 fa-solid fa-gift" style="color:orange;"></i>  </div>
+            <div class="info1 ms-3">
+         <h3 class="mt-4">MEMBER DISCOUNT</h3>
+            <p class="mb-4">
+              Register save up to $29%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <div class="card">
+          <div class="card-body d-flex">
+            <div class="icon1 ms-sm-5  mt-4"> <i class="fs-1 fa-solid fa-dollar-sign" style="color:orange;"></i></div>
+            <div class="info1 ms-3">
+          <h3 class="mt-4">PREMIUM SUPPORT</h3>
+            <p class="mb-4">
+             Support 24 hours per day
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- others section--> 
+    <!-- Arrivals section--> 
+    <section>
+      <div class="container-fluid gy-3 my-3">
+        <div class="row gy-4 my-4">
+          <h2 class="text-center mt-lg-5">NEW ARRIVALS</h2>
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./images/s1.jpg" alt="" class=" img-fluid">
+                  <h6 class="text-center">
+                    <span class="badge bg-dark">NEW</span>
+                  </h6>
+              
+                  <div class="product-info">
+                  <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                  <hr>
+                  <h6 class="text-center text-danger">$675.00</h6>
+                  </div>
+                  
+                 <div class="icon text-center">
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-regular fa-star"></i>
+                 </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./images/s2.jpg" alt="" class=" img-fluid">
+                  <h6 class="text-center">
+                    <span class="badge bg-dark">NEW</span>
+                  </h6>
+              
+                  <div class="product-info ">
+                  <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                  <hr>
+                  <h6 class="text-center text-danger">$675.00</h6>
+                  </div>
+                  
+                 <div class="icon text-center">
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-regular fa-star"></i>
+                 </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-sm-6 col-md-4 col-lg-4">
+              <div class="card">
+                <div class="card-body">
+                  <img src="./images/s3.jpg" alt="" class=" img-fluid">
+                  <h6 class="text-center">
+                    <span class="badge bg-dark">NEW</span>
+                  </h6>
+                  <div class="product-info">
+                  <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                  <hr>
+                  <h6 class="text-center text-danger">$675.00</h6>
+                  </div>
+                  
+                 <div class="icon text-center">
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-solid fa-star"></i>
+                   <i id="ic" class="fa-regular fa-star"></i>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row gy-4 my-4">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="./images/s4.jpg" alt="" class=" img-fluid">
+                    <h6 class="text-center">
+                      <span class="badge bg-dark">NEW</span>
+                    </h6>
+                
+                    <div class="product-info">
+                    <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                    <hr>
+                    <h6 class="text-center text-danger">$675.00</h6>
+                    </div>
+                    
+                   <div class="icon text-center">
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-regular fa-star"></i>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="./images/s5.jpg" alt="" class=" img-fluid">
+                    <h6 class="text-center">
+                      <span class="badge bg-dark">NEW</span>
+                    </h6>
+                
+                    <div class="product-info ">
+                    <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                    <hr>
+                    <h6 class="text-center text-danger">$675.00</h6>
+                    </div>
+                    
+                   <div class="icon text-center">
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-regular fa-star"></i>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="./images/s6.jpg" alt="" class=" img-fluid">
+                    <h6 class="text-center">
+                      <span class="badge bg-dark">NEW</span>
+                    </h6>
+                    <div class="product-info">
+                    <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                    <hr>
+                    <h6 class="text-center text-danger">$675.00</h6>
+                    </div>
+                    
+                   <div class="icon text-center">
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-solid fa-star"></i>
+                     <i id="ic" class="fa-regular fa-star"></i>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row gy-4 my-4">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="./images/s7.jpg" alt="" class=" img-fluid">
+                      <h6 class="text-center">
+                        <span class="badge bg-dark">NEW</span>
+                      </h6>
+                  
+                      <div class="product-info">
+                      <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                      <hr>
+                      <h6 class="text-center text-danger">$675.00</h6>
+                      </div>
+                      
+                     <div class="icon text-center">
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-regular fa-star"></i>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="./images/s8.jpg" alt="" class=" img-fluid">
+                      <h6 class="text-center">
+                        <span class="badge bg-dark">NEW</span>
+                      </h6>
+                  
+                      <div class="product-info ">
+                      <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                      <hr>
+                      <h6 class="text-center text-danger">$675.00</h6>
+                      </div>
+                      
+                     <div class="icon text-center">
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-regular fa-star"></i>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="./images/s9.jpg" alt="" class=" img-fluid">
+                      <h6 class="text-center">
+                        <span class="badge bg-dark">NEW</span>
+                      </h6>
+                      <div class="product-info">
+                      <h6 class="mt-lg-3 text-center">BELLA TOES</h6>
+                      <hr>
+                      <h6 class="text-center text-danger">$675.00</h6>
+                      </div>
+                      
+                     <div class="icon text-center">
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-solid fa-star"></i>
+                       <i id="ic" class="fa-regular fa-star"></i>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+    </section>
+        <!-- Arrivals section--> 
+
+         <!--Testimonials section  -->
+  <section>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="owl-carousel owl-theme">
+
+          <div class="item mb-4">
+           <div class="card border-0 shadow">
+            <div class="te1">
+              <div class="te2 d-flex ">
+                <img id="test" src="./images/quote.png" class="img-fluid ">
+                <h3 class="ms-4">"Lorem ipsum dolor sit amet.</h3>
+              </div>
+              <div class="te3" style="margin-left:5rem;">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates sapiente delectus autem accusamus similique voluptas possimus hic. Quibusdam dolorum est quod officiis quas laboriosam harum.</p>
+                <h5> jonson himu</h5>
+            <i id="ic" class="fa-solid fa-star"></i>
+            <i id="ic" class="fa-solid fa-star"></i>
+            <i id="ic" class="fa-solid fa-star"></i>
+            <i id="ic" class="fa-solid fa-star"></i>
+            <i id="ic" class="fa-regular fa-star"></i>
+          </div>
+          <div class="te4" style="margin-left:5rem ;">
+            <img class="img-fluid rounded-circle mt-3  mb-5" src="./images/testi1.jpg" alt="" style="width:80px;">
+          </div>
+            </div>
+           </div>
+          </div>
+           <!--item ends -->
+          <div class="item mb-4">
+            <div class="card border-0 shadow">
+              <div class="te1">
+                <div class="te2 d-flex ">
+                  <img id="test" src="./images/quote.png" class="img-fluid">
+                  <h3 class="ms-4">"Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <div class="te3" style="margin-left:5rem;">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates sapiente delectus autem accusamus similique voluptas possimus hic. Quibusdam dolorum est quod officiis quas laboriosam harum.</p>
+                  <h5> jonson himu</h5>
+                  <i id="ic" class="fa-solid fa-star"></i>
+                  <i id="ic" class="fa-solid fa-star"></i>
+                  <i id="ic" class="fa-solid fa-star"></i>
+                  <i id="ic" class="fa-solid fa-star"></i>
+                  <i id="ic" class="fa-regular fa-star"></i>
+            </div>
+            <div class="te4" style="margin-left:5rem ;">
+              <img class="img-fluid rounded-circle mt-3  mb-5" src="./images/testi2.jpg" alt="" style="width:80px;">
+            </div>
+              </div>
+            </div>
+          </div>
+            <!--item ends -->
+            <div class="item mb-4">
+              <div class="card border-0 shadow">
+                <div class="te1">
+                  <div class="te2 d-flex ">
+                    <img id="test" src="./images/quote.png" class="img-fluid">
+                    <h3 class="ms-4">"Lorem ipsum dolor sit amet.</h3>
+                  </div>
+                  <div class="te3" style="margin-left:5rem;">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates sapiente delectus autem accusamus similique voluptas possimus hic. Quibusdam dolorum est quod officiis quas laboriosam harum.</p>
+                    <h5> jonson himu</h5>
+                    <i id="ic" class="fa-solid fa-star"></i>
+                    <i id="ic" class="fa-solid fa-star"></i>
+                    <i id="ic" class="fa-solid fa-star"></i>
+                    <i id="ic" class="fa-solid fa-star"></i>
+                    <i id="ic" class="fa-regular fa-star"></i>
+              </div>
+              <div class="te4" style="margin-left:5rem ;">
+                <img class="img-fluid rounded-circle mt-3  mb-5" src="./images/testi3.jpg" alt="" style="width:80px;">
+              </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+         </div>
+    </div>
+  </section>
+
+ <!--0. jQuery cdn-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--1. owl carousel min.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--init carousel -->
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+autoplayTimeout:2000,
+autoplayHoverPause:false,
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+<!--Testimonials section  -->
+
+<!--popular section -->
+<section>
+<div class="container gy-5 my-5">
+  <div class=" row">
+    <h2 class="text-center mb-md-4 mb-lg-4">POPULAR PRODUCTS</h2>
+    <div class="col-md-6 col-lg-6">
+<div class="card">
+  <div class="card-body">
+    <img src="./images/img1.jpg" class=" img-fluid">
+  </div>
+</div>
+    </div>
+
+    <div class=" col-md-6 col-lg-6">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="card">
+      <div class="card-body">
+        <img src="./images/img2.jpg" class=" img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-lg-4 ">
+  <div class="col-lg-12">
+    <div class="card">
+      <div class="card-body">
+        <img src="./images/img3.jpg" class=" img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+</div>
+</section>
+<!--popular section -->
+
+
+<!--brand section -->
+<section class="brand">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2  col-3  "> <strong><i id="brand" class="fa-brands fa-connectdevelop"></i></strong></div>
+      <div class="col-sm-2 col-3  "><strong><i id="brand" class="fa-brands fa-empire"></i></strong></div>
+      <div class="col-sm-2  col-3  "><strong><i id="brand" class="fa-solid fa-shield-dog"></i></strong></div>
+      <div class="col-sm-2  col-3  "><strong><i id="brand" class="fa-brands fa-joomla"></i></strong> </div>
+      <div class="col-sm-2  col-3 "><strong><i id="brand" class="fa-sharp fa-regular fa-snowflake"></i></strong></div>
+      <div class="col-sm-2 col-3   "><strong><i id="brand" class="fa-solid fa-shield-cat"></i></strong></div>
+    </div>
+  </div>
+</section>
+<!--brand section -->
+
+<!--footer section -->
+<section>
+  <footer>
+    <div class="container-sm">
+      <div class="row">
+
+        <a class="navbar-brand mt-md-4 mt-lg-4 mb-lg-4 mb-md-4 text-center text-dark" href="#"><i class="fa-solid fa-bold"></i><h1><b>ootie</b></h1></a>
+
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <h3><b>INFORMATION</b></h3>
+          <ul class=" list-unstyled">
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">HOME</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">ABOUT US</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">GALLERY</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none"  href="#">SERVICES</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">CONTACT US</a></li>
+          </ul>
+      
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <h3><b>CUSTOMER SERVICE</b></h3>
+          <ul class=" list-unstyled "> 
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">ABOUT US</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">DELIVERY & RETURNS</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">WARANTY</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">TERMS & CONDITION</a></li>
+<li class="mt-3 mt-md-4 mt-lg-3"><a class=" text-decoration-none" href="#">PRIVACY PLOLICY</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <h3 class="mt-sm-"><b>CONTACT INFO</b></h3>
+          <ul class=" list-unstyled">
+           <li class="mt-md-4 mt-lg-3">
+            <h6>PHONE</h6>
+            <p>+8801787326535</p>
+           </li>
+              <li class="mt-md-4 mt-lg-3">
+             <h6>EMAIL</h6>
+             <p>info@example.com</p>
+            </li>
+          <li class="mt-md-4 mt-lg-3">
+            <h6>LOCATION</h6>
+            <p>Dhaka,Narsingdi</p>
+          </li>
+          </ul>
+        </div>
+        <p class="mt-3 mb-3 text-center"> © 2023 All rights reserved | Designed by Md.Yeasin Talukdar</p>
+      </div>
+    </div>
+  </footer>
+</section>
+<!--footer section -->
+
+</body>
+</html>
+ 
