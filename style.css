@@ -35,14 +35,11 @@ div h3,p{
 div h3{
     font-size:15px;
 }
-
-/*other section*/
 #ic{
     font-size:30px;
 }
-/*arrivals section*/
+/*other section*/
 
-/*arrivals section*/
 
 /*testimonials section*/
 #test{
@@ -53,7 +50,7 @@ div h3{
 
 /*brand section*/
 .brand{
-    background: #1E272E;
+    background: #828b93;
 }
 #brand{
     font-size:5rem;
